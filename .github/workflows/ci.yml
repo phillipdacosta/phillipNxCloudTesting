@@ -16,5 +16,6 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 9.4.0
-      - run: npm install --legacy-peer-deps
       - run: npm run nx-cloud start-ci-run --distribute-on="8 linux-medium-js"
+      - run: npm install --legacy-peer-deps
+      - run: npm nx run build crew --verbose
