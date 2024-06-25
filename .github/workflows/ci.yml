@@ -19,3 +19,4 @@ jobs:
       - run: npx nx-cloud start-ci-run --distribute-on="8 linux-medium-js"
       - run: npm install --legacy-peer-deps
       - run: npm run nx build crew --verbose
+      - run: npx nx affected -t test 
