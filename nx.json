@@ -1,5 +1,6 @@
 {
   "affected": { "defaultBase": "origin/main" },
+  "bustCache": 1,
   "stuff": [],
   "namedInputs": {
     "default": ["sharedGlobals", "{projectRoot}/**/*"],
