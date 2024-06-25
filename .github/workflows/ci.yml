@@ -17,4 +17,4 @@ jobs:
         with:
           version: 9.4.0
       - run: npm install --legacy-peer-deps
-      - run: npm nx build crew --verbose
+      - run: npm run nx build crew --verbose
